@@ -30,3 +30,40 @@
     text-decoration:none;
     font-size: 20px;
 }
+.a3{
+    position: relative;
+    width: 450px;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-top: -1.9%;
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+}
+.a4{
+    position: relative;
+    font-size: 25px;
+    top: 50px;
+}
+.a5{
+    position: relative;
+    font-size: 20px;
+    top: 55px;
+}
+.a6{
+    position: relative;
+    width: 450px;
+    height: 400px;
+    margin-left: 35.4%;
+    margin-top: -28%;
+    text-align: center;
+    background-color: rgb(226, 154, 60);
+    color: white;
+}
+.i2{
+    position: relative;
+    width: 450px;
+    height: 400px;
+    margin-left: 68.4%;
+    top: -400px;
+}
