@@ -6,34 +6,34 @@
 .a{
     position: relative;
     width: 100%;
-    height: 150px;
+    height: 50%;
     background-color: rgb(231, 231, 247);
 }
 .i{
     position: relative;
-    height: 150px;
-    width: 250px;
+    height: 20%;
+    width: 18%;
 }
 .a1{
     position: relative;
     margin: 0 auto;
     display: flex;
-    top: -150px;
-    margin-left: 17%;
+    top: -210px;
+    margin-left: 19%;
 }
 .a2{
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 10%;
     margin-top: -3.3%;
 }
 .p{
     text-decoration:none;
-    font-size: 20px;
+    font-size: 150%;
 }
 .a3{
     position: relative;
-    width: 450px;
+    width: 30%;
     height: 400px;
     margin-left: 2.5%;
     margin-top: -1.9%;
@@ -43,58 +43,88 @@
 }
 .a4{
     position: relative;
-    font-size: 25px;
-    top: 50px;
+    font-size: 170%;
+    top: 5%;
 }
 .a5{
     position: relative;
-    font-size: 20px;
-    top: 55px;
+    font-size: 130%;
+    top: 5%;
 }
 .a6{
     position: relative;
-    width: 450px;
+    width: 30%;
     height: 400px;
     margin-left: 35.4%;
-    margin-top: -28%;
+    margin-top: -28.2%;
     text-align: center;
     background-color: rgb(226, 154, 60);
     color: white;
 }
 .i2{
     position: relative;
-    width: 450px;
+    width: 30%;
     height: 400px;
     margin-left: 68.4%;
     top: -400px;
 }
 .a7{
     position: relative;
-    width: 450px;
+    width: 30%;
     height: 400px;
     margin-left: 2.5%;
-    margin-top: -28.2%;
+    margin-top: -28.3%;
     text-align: center;
     background-color: rgb(207, 190, 36);
     color: white;
 }
 .a8{
     position: relative;
-    width: 450px;
+    width: 30%;
     height: 400px;
     margin-left: 35.4%;
-    margin-top: -28%;
+    margin-top: -28.2%;
     text-align: center;
     background-color: rgb(235, 231, 46);
     color: white;
 }
 .a9{
     position: relative;
-    width: 450px;
+    width: 30%;
     height: 400px;
     margin-left: 68.4%;
-    margin-top: -28%;
+    margin-top: -28.1%;
     text-align: center;
     background-color: rgb(187, 90, 10);
     color: white;
+}
+.a10{
+    position: relative;
+    object-fit:cover;
+    margin: 0 auto;
+    width: 90%;
+    height: 250px;
+}
+.slider{
+    position: relative;
+    margin-top: 3%;
+    object-fit:cover;
+}
+.a11{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 200%;  
+}
+.a12{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(231, 231, 247);
+}
+.a13{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 5%;
 }
