@@ -5,31 +5,30 @@
 }
 .a{
     position: relative;
-    width: 100%;
-    height: 50%;
-    background-color: rgb(231, 231, 247);
+    width: 250px;
+    height: 100%;
+    background-image: url(/p1/i.jpg);
+    background-size:cover;
+    background-position:center;
+    
 }
-.i{
-    position: relative;
-    height: 20%;
-    width: 18%;
+header{
+    display: flex;
+    background-color: rgb(231, 231, 247);
+    width: 100%;
+    height: 150px;
 }
 .a1{
     position: relative;
-    margin: 0 auto;
     display: flex;
-    top: -210px;
-    margin-left: 19%;
-}
-.a2{
-    position: relative;
-    width: 100%;
-    height: 10%;
-    margin-top: -3.3%;
+    justify-content: space-around;
+    top: 35%;
+    height: 100%;
+    width: 350px;
 }
 .p{
     text-decoration:none;
-    font-size: 150%;
+    font-size: 130%;
 }
 .a3{
     position: relative;
