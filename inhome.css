@@ -58,7 +58,7 @@ header{
 }
 .runa{
     position: relative;
-    height: 750px;
+    height: 100%;
     width: 45%;
 }
 .run{
@@ -66,9 +66,9 @@ header{
     background-image: url(/inhome\ pic/run.jpg);
     background-size:cover;
     background-position:center; 
+    top: 55px;
     width: 100%;
-    height: 60%;
-    top: 8%;
+    height: 450px;
     text-align: center;
     line-height: 400px;
     font-size: 75px;
@@ -76,9 +76,10 @@ header{
 .runt{
     display: none;
     position: relative;
-    width: 45%;
+    width: 100%;
     height: 80%;
     left: 10%;
+    font-size: larger;
 }
 .run:hover{
     background-blend-mode: multiply;
@@ -93,7 +94,7 @@ header{
 }
 .bikea{
     position: relative;
-    height: 750px;
+    height: 100%;
     width: 45%;
 }
 .bike{
@@ -101,9 +102,9 @@ header{
     background-image: url(/inhome\ pic/bike.jpg);
     background-size:cover;
     background-position:center;
-    top: 8%;
+    top: 55px;
     width: 100%;
-    height: 60%;
+    height: 450px;
     text-align: center;
     line-height: 400px;
     font-size: 75px;
@@ -111,9 +112,10 @@ header{
 .biket{
     display: none;
     position: relative;
-    width: 45%;
+    width: 100%;
     height: 80%;
     left: 10%;
+    font-size: larger;
 }
 .bike:hover{
     background-blend-mode: multiply;
@@ -128,7 +130,7 @@ header{
 }
 .powera{
     position: relative;
-    height: 700px;
+    height: 100%;
     width: 45%;
 }
 .power{
@@ -137,7 +139,7 @@ header{
     background-size:cover;
     background-position:center;
     width: 100%;
-    height: 60%;
+    height: 450px;
     text-align: center;
     line-height: 400px;
     font-size: 75px;
@@ -145,9 +147,10 @@ header{
 .powert{
     display: none;
     position: relative;
-    width: 45%;
+    width: 100%;
     height: 80%;
     left: 10%;
+    font-size: larger;
 }
 .power:hover{
     background-blend-mode: multiply;
@@ -162,7 +165,7 @@ header{
 }
 .othera{
     position: relative;
-    height: 700px;
+    height: 100%;
     width: 45%;
 }
 .other{
@@ -171,7 +174,7 @@ header{
     background-size:cover;
     background-position:center;
     width: 100%;
-    height: 60%;
+    height: 450px;
     text-align: center;
     line-height: 400px;
     font-size: 75px;
@@ -179,9 +182,10 @@ header{
 .othert{
     display: none;
     position: relative;
-    width: 45%;
+    width: 100%;
     height: 80%;
     left: 10%;
+    font-size: larger;
 }
 .other:hover{
     background-blend-mode: multiply;
@@ -218,4 +222,59 @@ footer{
     border: 2px solid black;
     font-size: 20px;
     background-color: rgba(255, 222, 218,0.8);
+}
+@media screen and (max-width:900px){
+    .b{
+        display: block;
+    }
+    .runa{
+        width: 80%;
+        left: 10%;
+    }
+    .bikea{
+        width: 80%;
+        left: 10%;
+    }
+    .powera{
+        width: 80%;
+        left: 10%;
+    }
+    .othera{
+        width: 80%;
+        left: 10%;
+    }
+    .power{
+        top: 55px;
+    }
+    .other{
+        top: 55px;
+    }
+
+}
+@media screen and (max-width:550px){
+    .p{
+        font-size: medium;
+    }
+    .a{
+        width: 150px;
+    }
+    header{
+        height: 100px;
+    }
+    .run{
+        height: 300px;
+        line-height: 300px;
+    }
+    .bike{
+        height: 300px;
+        line-height: 300px;
+    }
+    .power{
+        height: 300px;
+        line-height: 300px;
+    }
+    .other{
+        height: 300px;
+        line-height: 300px;
+    }
 }
