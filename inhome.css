@@ -1,0 +1,226 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+.a{
+    position: relative;
+    width: 250px;
+    height: 100%;
+    background-image: url(/p1/i.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+header{
+    display: flex;
+    background-color: rgb(231, 231, 247);
+    width: 100%;
+    height: 150px;
+}
+.i{
+    position: relative;
+    height: 150px;
+    width: 250px;
+}
+.a1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 35%;
+    height: 100%;
+    width: 350px;
+}
+.p{
+    text-decoration:none;
+    font-size: 130%;
+}
+.a2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.pic{
+    position: relative;
+    background-image: url(/p1/1.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 300px;
+}
+.b{
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: space-around;
+}
+.back{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: darkgray;
+}
+.runa{
+    position: relative;
+    height: 750px;
+    width: 45%;
+}
+.run{
+    position: relative;
+    background-image: url(/inhome\ pic/run.jpg);
+    background-size:cover;
+    background-position:center; 
+    width: 100%;
+    height: 60%;
+    top: 8%;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+}
+.runt{
+    display: none;
+    position: relative;
+    width: 45%;
+    height: 80%;
+    left: 10%;
+}
+.run:hover{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);
+}
+.run:hover span{
+    display: block;
+    color: white;
+}
+.run span{
+    display: none;
+}
+.bikea{
+    position: relative;
+    height: 750px;
+    width: 45%;
+}
+.bike{
+    position: relative;
+    background-image: url(/inhome\ pic/bike.jpg);
+    background-size:cover;
+    background-position:center;
+    top: 8%;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+}
+.biket{
+    display: none;
+    position: relative;
+    width: 45%;
+    height: 80%;
+    left: 10%;
+}
+.bike:hover{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);
+}
+.bike:hover span{
+    display: block;
+    color: white;
+}
+.bike span{
+    display: none;
+}
+.powera{
+    position: relative;
+    height: 700px;
+    width: 45%;
+}
+.power{
+    position: relative;
+    background-image: url(/inhome\ pic/power.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+}
+.powert{
+    display: none;
+    position: relative;
+    width: 45%;
+    height: 80%;
+    left: 10%;
+}
+.power:hover{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);
+}
+.power:hover span{
+    display: block;
+    color: white    ;
+}
+.power span{
+    display: none;
+}
+.othera{
+    position: relative;
+    height: 700px;
+    width: 45%;
+}
+.other{
+    position: relative;
+    background-image: url(/inhome\ pic/other.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+}
+.othert{
+    display: none;
+    position: relative;
+    width: 45%;
+    height: 80%;
+    left: 10%;
+}
+.other:hover{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);
+}
+.other:hover span{
+    display: block;
+    color: white    ;
+}
+.other span{
+    display: none;
+}
+
+footer{
+    height: 127px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    font-size: 14px;
+    color: dimgray;
+    font-family:sans-serif;
+    font-weight:bolder;
+}
+.bu{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+.bu span{
+    cursor: pointer;
+    display: block;
+    border-radius: 15px;    
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: rgb(111, 198, 233);
+}

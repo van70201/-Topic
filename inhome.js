@@ -1,0 +1,12 @@
+$(".runb").click(function(){
+    $(".runt").slideToggle();
+});
+$(".bikeb").click(function(){
+    $(".biket").slideToggle();
+});
+$(".powerb").click(function(){
+    $(".powert").slideToggle();
+});
+$(".otherb").click(function(){
+    $(".othert").slideToggle();
+});
