@@ -223,6 +223,9 @@ footer{
     font-size: 20px;
     background-color: rgba(255, 222, 218,0.8);
 }
+.ww{
+    display: none;
+}
 @media screen and (max-width:900px){
     .b{
         display: block;
@@ -248,6 +251,9 @@ footer{
     }
     .other{
         top: 55px;
+    }
+    .ww{
+        display: unset;
     }
 
 }
