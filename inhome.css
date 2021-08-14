@@ -8,8 +8,7 @@ body{
     height: 100%;
     background-image: url(/p1/i.jpg);
     background-size:cover;
-    background-position:center;
-    
+    background-position:center;   
 }
 header{
     display: flex;
