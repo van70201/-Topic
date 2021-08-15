@@ -25,6 +25,14 @@ header{
     height: 100%;
     width: 350px;
 }
+.ti a:link{
+    text-decoration:none;
+    color: black;
+}
+.ti a:visited{
+    text-decoration:none;
+    color: black;
+}
 .p{
     text-decoration:none;
     font-size: 130%;

@@ -1,6 +1,11 @@
 body{
     margin: auto;
     padding: auto;
+    background-image: url(/inhomepic/gym.jpg);
+    background-size:cover;
+    background-position:center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .a{
     position: relative;
@@ -9,6 +14,14 @@ body{
     background-image: url(/p1/i.jpg);
     background-size:cover;
     background-position:center;   
+}
+.a1 a:link{
+    text-decoration:none;
+    color: black;
+}
+.a1 a:visited{
+    text-decoration:none;
+    color: black;
 }
 header{
     display: flex;
@@ -53,16 +66,31 @@ header{
     left: 10%;
     width: 80%;
     height: 100%;
-    background-color: darkgray;
 }
 .runa{
     position: relative;
     height: 100%;
     width: 45%;
 }
+.nn{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.runp{
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 300px;
+    background-image: url(/inhomepic/run1.jpg);
+    background-size:cover;
+    background-position:center; 
+    top: 20px;
+}
 .run{
     position: relative;
-    background-image: url(/inhome\ pic/run.jpg);
+    background-image: url(/inhomepic/run1.jpg);
     background-size:cover;
     background-position:center; 
     top: 55px;
@@ -75,10 +103,16 @@ header{
 .runt{
     display: none;
     position: relative;
-    width: 100%;
-    height: 80%;
-    left: 10%;
-    font-size: larger;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}
+.runt p{
+    cursor: pointer;
+}
+.runt p:hover{
+    color: red;
 }
 .run:hover{
     background-blend-mode: multiply;
@@ -98,7 +132,7 @@ header{
 }
 .bike{
     position: relative;
-    background-image: url(/inhome\ pic/bike.jpg);
+    background-image: url(/inhomepic/bike1.jpg);
     background-size:cover;
     background-position:center;
     top: 55px;
@@ -108,13 +142,29 @@ header{
     line-height: 400px;
     font-size: 75px;
 }
+.bikep{
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 300px;
+    background-image: url(/inhomepic/bike1.jpg);
+    background-size:cover;
+    background-position:center; 
+    top: 20px;
+}
 .biket{
     display: none;
     position: relative;
-    width: 100%;
-    height: 80%;
-    left: 10%;
-    font-size: larger;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}
+.biket p{
+    cursor: pointer;
+}
+.biket p:hover{
+    color: red;
 }
 .bike:hover{
     background-blend-mode: multiply;
@@ -134,7 +184,7 @@ header{
 }
 .power{
     position: relative;
-    background-image: url(/inhome\ pic/power.jpg);
+    background-image: url(/inhomepic/power1.jpg);
     background-size:cover;
     background-position:center;
     width: 100%;
@@ -143,13 +193,29 @@ header{
     line-height: 400px;
     font-size: 75px;
 }
+.powerp{
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 300px;
+    background-image: url(/inhomepic/power1.jpg);
+    background-size:cover;
+    background-position:center; 
+    top: 20px;
+}
 .powert{
     display: none;
     position: relative;
-    width: 100%;
-    height: 80%;
-    left: 10%;
-    font-size: larger;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}
+.powert p{
+    cursor: pointer;
+}
+.powert p:hover{
+    color: red;
 }
 .power:hover{
     background-blend-mode: multiply;
@@ -169,7 +235,7 @@ header{
 }
 .other{
     position: relative;
-    background-image: url(/inhome\ pic/other.jpg);
+    background-image: url(/inhomepic/other2.jpg);
     background-size:cover;
     background-position:center;
     width: 100%;
@@ -178,13 +244,29 @@ header{
     line-height: 400px;
     font-size: 75px;
 }
+.otherp{
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 300px;
+    background-image: url(/inhomepic/other1.png);
+    background-size:cover;
+    background-position:center; 
+    top: 20px;
+}
 .othert{
     display: none;
     position: relative;
-    width: 100%;
-    height: 80%;
-    left: 10%;
-    font-size: larger;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}
+.othert p{
+    cursor: pointer;
+}
+.othert p:hover{
+    color: red;
 }
 .other:hover{
     background-blend-mode: multiply;
@@ -220,10 +302,32 @@ footer{
     border-radius: 15px;    
     border: 2px solid black;
     font-size: 20px;
-    background-color: rgba(255, 222, 218,0.8);
+    background-color: rgb(231, 231, 247);
 }
 .ww{
     display: none;
+}
+@media screen and (max-width:1550px){
+    .runt{
+        font-size: 16px;
+    }
+    .othert{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:1400px){
+    .runp{
+        height: 250px;
+    }
+    .bikep{
+        height: 250px;
+    }
+    .powerp{
+        height: 250px;
+    }
+    .otherp{
+        height: 250px;
+    }
 }
 @media screen and (max-width:900px){
     .b{
@@ -281,5 +385,69 @@ footer{
     .other{
         height: 300px;
         line-height: 300px;
+    }
+    .nn{
+        display: block;
+    }
+    .runt{
+        width: 100%;
+        text-align: center;
+    }
+    .biket{
+        width: 100%;
+        text-align: center;
+    }
+    .powert{
+        width: 100%;
+        text-align: center;
+    }
+    .othert{
+        width: 100%;
+        text-align: center;
+    }
+    .runp{
+        width: 80%;
+        left: 10%;
+    }
+    .bikep{
+        width: 80%;
+        left: 10%;
+    }
+    .powerp{
+        width: 80%;
+        left: 10%;
+    }
+    .otherp{
+        width: 80%;
+        left: 10%;
+    }
+}
+@media screen and (max-width:400px){
+    .runp{
+        height: 200px;
+    }
+    .bikep{
+        height: 200px;
+    }
+    .powerp{
+        height: 200px;
+    }
+    .otherp{
+        height: 200px;
+    }
+    .runt{
+        font-size: 14px;
+    }
+    .biket{
+        font-size: 14px;
+    }
+    .powert{
+        font-size: 14px;
+    }
+    .othert{
+        font-size: 14px;
+    }
+    .p{
+        font-size: 14px;
     }
 }

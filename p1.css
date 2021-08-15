@@ -26,6 +26,14 @@ header{
     height: 100%;
     width: 350px;
 }
+.a1 a:link{
+    text-decoration:none;
+    color: black;
+}
+.a1 a:visited{
+    text-decoration:none;
+    color: black;
+}
 .p{
     text-decoration:none;
     font-size: 130%;
