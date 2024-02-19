@@ -56,7 +56,7 @@ header{
 }
 .a4{
     position: relative;
-    font-size: 170%;
+    font-size: 180%;
     top: 5%;
 }
 .a5{
@@ -78,8 +78,11 @@ header{
     position: relative;
     width: 30%;
     height: 400px;
-    
+    text-align: center;
+    color: white;
+    font-size: 200%; 
     margin-left: 2.5%;
+    background-image: url(/p1/3.jpg);
 }
 .a7{
     position: relative;
@@ -98,7 +101,7 @@ header{
     margin-left: 2.5%;
     margin-top: 2.5%;
     text-align: center;
-    background-color: rgb(235, 231, 46);
+    background-color: rgb(93, 153, 46);
     color: white;
 }
 .a9{
@@ -114,7 +117,7 @@ header{
 .a10{
     position: relative;
     object-fit:cover;
-    margin: 0 auto;
+    margin: 2% auto;
     width: 90%;
     height: 250px;
 }
@@ -122,12 +125,6 @@ header{
     position: relative;
     margin-top: 3%;
     object-fit:cover;
-}
-.a11{
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 200%;  
 }
 .a12{
     position: relative;
